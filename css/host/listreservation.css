@@ -180,14 +180,14 @@ b#b-reservation-seq{
 }
 
 b#b-reservation-usingDate{
-    width:90px;
+    width:120px;
     display:inline-block;
     text-align: center;
     margin-left: 5px;
     
 }
 .reservation-list>.reservation-list-origin>#reservation-usingDate{
-    width: 85px;
+    width: 120px;
     display:inline-block; 
     text-align: center;
     margin: 13px 0px 5px 10px;
@@ -207,14 +207,14 @@ b#b-reservation-idAndName{
 }
 
 b#b-reservation-hostId{
-    width:130px;
+    width:95px;
     
     display:inline-block;
     text-align: center;
 }
 
 .reservation-list>.reservation-list-origin>#reservation-hostId{
-    width: 130px;
+    width: 90px;
     display:inline-block; 
     text-align: center; 
 }

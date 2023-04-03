@@ -1,4 +1,6 @@
 $(() => {
+
+    $('span#showLoginId').html(sessionStorage.getItem("logined"));
     //=== 즐겨찾기한 카페 목록 보여주기 START ===
     userCheckIntervalLogined();
     let url = backURL + 'mypage/favoritesstudyroom';
@@ -44,19 +46,3 @@ $(document).on('click', 'div.list-fav-studyroom-origin', function (e) {
 
 //=== 해당블럭 누르 카페 상세 페이지로 이동 END ===
 
-
-//=== 상단바
-// $(document).on('click', '.login ', function () {
-//     location.href = frontURL + 'users/devlogin.html'
-// });
-// $(document).on('click', '.lesson ', function () {
-//     location.href = frontURL + 'lesson/lessonlist.html'
-// });
-// $(document).on('click', '.tutorAdd ', function () {
-//     location.href = frontURL + 'tutor/add.html'
-// });
-// $(document).on('click', '.myPage ', function () {
-//     location.href = frontURL + 'mypage/favorites/lesson.html';
-// });
-
-//=== 사이드바

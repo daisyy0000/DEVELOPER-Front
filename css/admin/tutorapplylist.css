@@ -236,7 +236,7 @@ input.approve-btn-ok{
 
 
 input.approve-btn-reject{
-
+    font-size: 15px;
     margin-right:20px;
     border-width: 1px;
     text-align: center;
@@ -248,7 +248,6 @@ input.approve-btn-reject{
     width: 60px;
     position: relative;
     line-height: 1;
-    font-size: 4;
     user-select: none;
     cursor: pointer;
     border: 1px solid transparent;

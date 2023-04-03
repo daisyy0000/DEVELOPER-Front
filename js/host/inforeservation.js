@@ -29,6 +29,7 @@ $(() => {
                    $copy.find('div#reservation-hp').text('-')
                 } else if(item.usersDTO.name != null){
                    $copy.find('div#reservation-name').html(item.usersDTO.name)
+                   $copy.find('div#reservation-hp').html(item.usersDTO.tel)
                 }
                 
                 $copy.find('div#reservation-roomName').html(item.roomInfoDTO.name)
